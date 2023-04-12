@@ -1,0 +1,140 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8582250ce1dce88c8a412f82bd4281b2e12f733.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.450000000000003,
+                            32.729999900000003
+                        ],
+                        [
+                            -81.370000000000005,
+                            32.760000000000005
+                        ],
+                        [
+                            -81.359999999999999,
+                            32.640000000000008
+                        ],
+                        [
+                            -81.170000000000002,
+                            32.490000000000009
+                        ],
+                        [
+                            -81.25,
+                            32.460000000000008
+                        ],
+                        [
+                            -81.439999999999998,
+                            32.610000000000007
+                        ],
+                        [
+                            -81.450000000000003,
+                            32.729999900000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8582250ce1dce88c8a412f82bd4281b2e12f733.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.e8582250ce1dce88c8a412f82bd4281b2e12f733.002.1",
+                "areaDesc": "Effingham, GA; Screven, GA; Hampton, SC; Jasper, SC",
+                "geocode": {
+                    "SAME": [
+                        "013103",
+                        "013251",
+                        "045049",
+                        "045053"
+                    ],
+                    "UGC": [
+                        "GAC103",
+                        "GAC251",
+                        "SCC049",
+                        "SCC053"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/GAC103",
+                    "https://api.weather.gov/zones/county/GAC251",
+                    "https://api.weather.gov/zones/county/SCC049",
+                    "https://api.weather.gov/zones/county/SCC053"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fdb883d91a3b8ba17f5bd7c4b66f7107c178c3d.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.5fdb883d91a3b8ba17f5bd7c4b66f7107c178c3d.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-03T10:23:00-04:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.46b82eceffdcf8f7ac703c89c0f761b0dcc86acd.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.46b82eceffdcf8f7ac703c89c0f761b0dcc86acd.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-03T20:53:00-04:00"
+                    }
+                ],
+                "sent": "2023-04-04T10:27:00-04:00",
+                "effective": "2023-04-04T10:27:00-04:00",
+                "onset": "2023-04-04T10:27:00-04:00",
+                "expires": "2023-04-05T10:30:00-04:00",
+                "ends": "2023-04-09T17:00:00-04:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Charleston SC",
+                "headline": "Flood Warning issued April 4 at 10:27AM EDT until April 9 at 5:00PM EDT by NWS Charleston SC",
+                "description": "* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Savannah River near Clyo.\n\n* WHEN...Until Sunday afternoon.\n\n* IMPACTS...At 13.3 feet, one foot of water covers Tom Goethe Road\njust after the pavement ends.\n\n* ADDITIONAL DETAILS...\n- At 1015 AM EDT Tuesday, the stage was 11.9 feet.\n- Forecast...The river is expected to rise to a crest of 12.3\nfeet Wednesday evening. It will then fall below flood stage\nearly Sunday morning.\n- Flood stage is 11.0 feet.",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSCHS"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS82 KCHS 041427"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY AFTERNOON"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KCHS.FL.W.0015.000000T0000Z-230409T2100Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2023-04-09T21:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.76f303af0de218f1db809c17a0cd19cffdc9df0c.003.1,2023-04-02T22:07:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc9e016e6b74743f59ea4708ed2251a92d6b296a.001.1,2023-04-02T10:26:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1c71a9c2da89ca52450438c57d164cc0556e3c2c.001.1,2023-04-01T21:03:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fff8993f84a0fe66800db42c2b5003c91697b160.001.1,2022-04-20T21:32:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.04c9ba91003d647a7f79e349f7007b023b4f844d.001.1,2022-04-20T10:25:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a92242a39ed62f58d25ad1678ce191d13e5968eb.001.1,2022-04-21T09:23:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.427a2572cad4ed2c695e954c45042a4fa2903c2a.001.1,2022-04-19T21:36:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.baa337033ae387adb359fdc8be0479012b7167ad.001.1,2022-04-19T12:22:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9fb48e9009aa24f609af45592f71ab14274e3839.001.1,2022-04-18T21:53:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a1bc641fd918ca2369ca66da0822ac76adbad15.003.1,2022-04-18T10:03:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3dce2b7db72ce2f39da2488c865ccb168e962675.002.1,2022-04-17T21:16:00-04:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b77b66928a658e0252e3e692ff717c32fceaa49d.001.1,2022-04-17T18:03:00-04:00"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for South Carolina",
+    "updated": "2023-04-04T14:30:00+00:00"
+}

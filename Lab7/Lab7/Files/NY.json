@@ -1,0 +1,88 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73727ca187e4125cf009a636061f9a1d09df1ec2.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73727ca187e4125cf009a636061f9a1d09df1ec2.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.73727ca187e4125cf009a636061f9a1d09df1ec2.001.1",
+                "areaDesc": "Northern St. Lawrence; Northern Franklin; Southern Franklin; Western Clinton; Southwestern St. Lawrence",
+                "geocode": {
+                    "SAME": [
+                        "036089",
+                        "036033",
+                        "036019"
+                    ],
+                    "UGC": [
+                        "NYZ026",
+                        "NYZ027",
+                        "NYZ030",
+                        "NYZ031",
+                        "NYZ087"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/NYZ026",
+                    "https://api.weather.gov/zones/forecast/NYZ027",
+                    "https://api.weather.gov/zones/forecast/NYZ030",
+                    "https://api.weather.gov/zones/forecast/NYZ031",
+                    "https://api.weather.gov/zones/forecast/NYZ087"
+                ],
+                "references": [],
+                "sent": "2023-04-04T15:05:00-04:00",
+                "effective": "2023-04-04T15:05:00-04:00",
+                "onset": "2023-04-05T05:00:00-04:00",
+                "expires": "2023-04-05T06:00:00-04:00",
+                "ends": "2023-04-05T17:00:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Winter Weather Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Burlington VT",
+                "headline": "Winter Weather Advisory issued April 4 at 3:05PM EDT until April 5 at 5:00PM EDT by NWS Burlington VT",
+                "description": "* WHAT...Freezing rain expected. Total ice accumulations of up to two\ntenths of an inch.\n\n* WHERE...Northern St. Lawrence, Northern Franklin, Southern\nFranklin, Western Clinton and Southwestern St. Lawrence\nCounties.\n\n* WHEN...From 5 AM to 5 PM EDT Wednesday.\n\n* IMPACTS...Difficult travel conditions are possible. The\nhazardous conditions could impact the morning commute.\n\n* ADDITIONAL DETAILS...Temperatures are expected to rise above\nfreezing by late morning. Sub-freezing temperatures are expected\nto linger the longest north of the Route 11 corridor.",
+                "instruction": "Slow down and use caution while traveling.\n\nPlease allow extra time if travel is necessary.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "WSWBTV"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS41 KBTV 041905"
+                    ],
+                    "NWSheadline": [
+                        "WINTER WEATHER ADVISORY IN EFFECT FROM 5 AM TO 5 PM EDT WEDNESDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KBTV.WW.Y.0017.230405T0900Z-230405T2100Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2023-04-05T21:00:00+00:00"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for New York",
+    "updated": "2023-04-04T19:06:04+00:00"
+}

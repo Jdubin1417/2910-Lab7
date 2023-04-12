@@ -1,0 +1,543 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e4ff0e12baa8d9b0d3eea0732098121cb80274c.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121,
+                            37.43
+                        ],
+                        [
+                            -120.84,
+                            37.420000000000002
+                        ],
+                        [
+                            -120.82000000000001,
+                            37.32
+                        ],
+                        [
+                            -120.93000000000001,
+                            37.280000000000001
+                        ],
+                        [
+                            -121,
+                            37.43
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1e4ff0e12baa8d9b0d3eea0732098121cb80274c.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.1e4ff0e12baa8d9b0d3eea0732098121cb80274c.001.1",
+                "areaDesc": "Merced, CA",
+                "geocode": {
+                    "SAME": [
+                        "006047"
+                    ],
+                    "UGC": [
+                        "CAC047"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/CAC047"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6034c020c8ab83cbba4cbdbe18b6144bec6299ad.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.6034c020c8ab83cbba4cbdbe18b6144bec6299ad.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-03T20:34:00-07:00"
+                    }
+                ],
+                "sent": "2023-04-04T08:34:00-07:00",
+                "effective": "2023-04-04T08:34:00-07:00",
+                "onset": "2023-04-04T08:34:00-07:00",
+                "expires": "2023-04-05T09:00:00-07:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Hanford CA",
+                "headline": "Flood Warning issued April 4 at 8:34AM PDT by NWS Hanford CA",
+                "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Merced River at Stevinson.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 70.5 feet, Water is up to the maintenance building in\nHagaman Park.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM PDT Tuesday the stage was 71.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this morning and continue rising to 71.0 feet late this\nmorning. Additional rises are possible thereafter.\n- Flood stage is 71.0 feet.\n- Flood History...This crest compares to a previous crest of\n70.5 feet on 03/21/2011.\n- http://www.weather.gov/safety/flood",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSHNX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS86 KHNX 041534"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING REMAINS IN EFFECT UNTIL FURTHER NOTICE"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.CON.KHNX.FL.W.0005.000000T0000Z-000000T0000Z/"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6fda41402756956996c6ffd08d2066f98f5a74d2.001.1,2023-04-03T08:53:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dabe8694e87d521cc4210b894b9aa66d4f615987.001.1,2023-04-02T09:31:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cd53e3644f02240565252798c48baf4ff30651df.001.1,2023-04-01T09:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1502ddf2816bc56ed5561b6c6de9ffdb820a5edf.001.1,2023-04-01T23:44:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee613e76deed11e04e04944048e421546e346304.001.1,2023-03-31T09:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9a44231cf0c354d5f07cd28158055c1ebef1ec0a.001.1,2023-03-30T22:15:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f0a2bcd23487820382d770f687e3a38c57713060.001.1,2023-03-30T10:01:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9257cba55785aeb12e5ae3641a8a488d005502d6.001.1,2023-03-29T21:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57268cf54575c8b4c75dee7d71272ae638c75d67.001.1,2023-03-29T09:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a46302cd74b56048f7238e7e666858389131890c.001.1,2023-03-28T08:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.819876911cc85d86dad5ea0521dbbd5cf09be4e5.001.1,2023-03-28T20:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.116b04a1c67cfafe6815299436883c1073adabd6.001.1,2023-03-27T10:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.189499fe6540666285825a2ecc95aa9c400420e7.001.1,2023-03-25T11:27:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eeb8830a572ee3c383f9c9d4c403c14f09ec4c56.001.1,2023-03-23T13:53:00-07:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf5ec2d54bb38b8409b1a927764bc0168d77e290.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.41,
+                            37.719999999999999
+                        ],
+                        [
+                            -121.22999999999999,
+                            37.769999999999996
+                        ],
+                        [
+                            -121.08999999999999,
+                            37.649999999999999
+                        ],
+                        [
+                            -121.27,
+                            37.559999999999995
+                        ],
+                        [
+                            -121.41,
+                            37.719999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf5ec2d54bb38b8409b1a927764bc0168d77e290.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.cf5ec2d54bb38b8409b1a927764bc0168d77e290.001.1",
+                "areaDesc": "San Joaquin, CA",
+                "geocode": {
+                    "SAME": [
+                        "006077"
+                    ],
+                    "UGC": [
+                        "CAC077"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/CAC077"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f0d37fb6e592071066e4303d3f37e2dad5b91b6.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.1f0d37fb6e592071066e4303d3f37e2dad5b91b6.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-03T08:37:00-07:00"
+                    }
+                ],
+                "sent": "2023-04-03T14:34:00-07:00",
+                "effective": "2023-04-03T14:34:00-07:00",
+                "onset": "2023-04-03T14:34:00-07:00",
+                "expires": "2023-04-04T14:45:00-07:00",
+                "ends": "2023-04-05T15:00:00-07:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Sacramento CA",
+                "headline": "Flood Warning issued April 3 at 2:34PM PDT until April 5 at 3:00PM PDT by NWS Sacramento CA",
+                "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...San Joaquin River near Vernalis.\n\n* WHEN...Until Wednesday afternoon.\n\n* ADDITIONAL DETAILS...\n- At 1:45 PM PDT Monday the stage was 29.0 feet.\n- Forecast...Forecast to fluctuate near 29.0 FT thru early\nWednesday afternoon.\n* Impact...Near 21.0 feet, Seepage begins into crop area\noutside of levees.\nNear 26.0 feet, Severe seepage occurs outside the levees. The\narea covered by seepage will increase as the river stage\nrises.\nNear 37.29 feet, Stages above 37.3 feet results in flooding\noutside the levees. Top of levee.\n- Flood stage is 29.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.0 feet on 01/06/1984.\n- http://www.weather.gov/safety/flood",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSLSJ"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS86 KSTO 032134"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL WEDNESDAY AFTERNOON"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KSTO.FL.W.0016.000000T0000Z-230405T2200Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2023-04-05T22:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7cdbba791218b6e062190243cecbe1a7429e9bd7.001.1,2023-04-02T08:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.71ee0511e2d4248e7dfe56ca039cee5c6b006a1f.001.1,2023-04-01T08:47:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.71fae4fa6174d73ec8fc5c08548c9ce29707bf35.001.1,2023-03-31T14:08:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dac95770ecc5e73cd87e762c9f4da6662c54e019.001.1,2023-03-31T08:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b10b4efc961a4b50c640c1897743d47a2cf20e37.001.1,2023-03-30T14:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6935e48af84e48d9eb92e816a2d8e1c5cc8707ec.001.1,2023-03-30T09:08:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.094224e405b0741d1504819563dbf03392ba865a.001.1,2023-03-29T14:31:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af3603e0e97078d374a8ffb8e0c5abce507d4087.001.1,2023-03-29T08:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.815d3fc2c821f99d166a2355b3b82e15afa3a4a0.001.1,2023-03-28T20:17:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2e92b40996bb32e339f39c45ae6a6a5f9da8ea21.001.1,2023-03-28T14:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c6597a08e76210a7835e6427b06a97cbb22b5609.001.1,2023-03-28T08:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0cbf0a982a84157237f16f6d25f26b3f86d718c3.001.1,2023-03-27T14:11:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.01b38349578059b314953b70b286dbf6d69e2c8a.001.1,2023-03-27T08:06:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.adde4ed810e90622640e59171d85111075f0100b.001.1,2023-03-26T08:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e0e4196174ac48e5bf1dfc541f5169b4ddf503fd.001.1,2023-03-25T09:35:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5fb04bbe398fb20c49c0d780071359f31784758d.001.1,2023-03-24T13:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.129a9d35f0ea010637c39613c37408991bafb0bf.001.1,2023-03-23T15:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.43ba2d084fe952eda06a6ee2ea7a29560f509333.001.1,2023-03-23T10:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.937bbe7bdaa1d7ad2a58d50c7d68c1d2d288e114.001.1,2023-03-22T14:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bbd048d373f32da9d06d911a4addb9f1c2189b77.001.1,2023-03-22T09:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e1f4f006e531b55aa0030d0e16475189fa2952c2.001.1,2023-03-21T21:48:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3ea5764ae4eed98278b822b17a6bedb053fc7a7d.001.1,2023-03-21T13:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a9c0f76c8c9bff7d2d74dc094164cdcf447dbc5d.001.1,2023-03-21T09:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2cd55db6ce291358ad4c335748d247cbc315e0e0.001.1,2023-03-20T15:22:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.03ce27ceb8ed4ddbb0bf900d43a4fa412927a97b.001.1,2023-03-20T08:53:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2f20a8a9c4f280a3172db8942fcb95565f4db1d2.001.1,2023-03-19T14:24:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e2d560492653f4186f2636104c5c0cf019ca4e30.001.1,2023-03-19T14:09:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3b529555ebc706e41d0fc4b4bbeacd8833fe0143.001.1,2023-03-19T08:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9ac5532f64689631c962d37f3f004817d9f6db63.001.1,2023-03-18T13:21:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b39ff19fa978a465174c4011437d9521a89e9d3f.001.1,2023-03-18T08:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.da0b5718fef70d872207cb5afe5c2995725bcb74.001.1,2023-03-17T15:13:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e1486b8470ed3c955e2d7ac97118661b91926731.001.1,2023-03-17T08:58:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5563f0648646e90107a374b7011c401f280fe29e.001.1,2023-03-17T08:47:00-07:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa24c58678f422ce72fd094711ef4cd206498b50.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -119.67,
+                            36.450000000000003
+                        ],
+                        [
+                            -119.56,
+                            36.5
+                        ],
+                        [
+                            -119.52,
+                            36.530000000000001
+                        ],
+                        [
+                            -119.48999999999999,
+                            36.579999999999998
+                        ],
+                        [
+                            -119.47999999999999,
+                            36.600000000000001
+                        ],
+                        [
+                            -119.48999999999999,
+                            36.640000000000001
+                        ],
+                        [
+                            -119.55,
+                            36.670000000000002
+                        ],
+                        [
+                            -119.53,
+                            36.690000000000005
+                        ],
+                        [
+                            -119.40000000000001,
+                            36.830000000000005
+                        ],
+                        [
+                            -119.36,
+                            36.810000000000002
+                        ],
+                        [
+                            -119.48999999999999,
+                            36.700000000000003
+                        ],
+                        [
+                            -119.5,
+                            36.670000000000002
+                        ],
+                        [
+                            -119.45,
+                            36.659999900000003
+                        ],
+                        [
+                            -119.44,
+                            36.600000000000001
+                        ],
+                        [
+                            -119.45,
+                            36.57
+                        ],
+                        [
+                            -119.52,
+                            36.490000000000002
+                        ],
+                        [
+                            -119.53,
+                            36.450000000000003
+                        ],
+                        [
+                            -119.64,
+                            36.400000000000006
+                        ],
+                        [
+                            -119.66,
+                            36.409999900000003
+                        ],
+                        [
+                            -119.67,
+                            36.450000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fa24c58678f422ce72fd094711ef4cd206498b50.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.fa24c58678f422ce72fd094711ef4cd206498b50.001.1",
+                "areaDesc": "Fresno, CA; Kings, CA; Tulare, CA",
+                "geocode": {
+                    "SAME": [
+                        "006019",
+                        "006031",
+                        "006107"
+                    ],
+                    "UGC": [
+                        "CAC019",
+                        "CAC031",
+                        "CAC107"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/CAC019",
+                    "https://api.weather.gov/zones/county/CAC031",
+                    "https://api.weather.gov/zones/county/CAC107"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a5578949fc96a628bed78fa225e7a7cc7ccde59.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4a5578949fc96a628bed78fa225e7a7cc7ccde59.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-01T00:15:00-07:00"
+                    }
+                ],
+                "sent": "2023-04-02T23:28:00-07:00",
+                "effective": "2023-04-02T23:28:00-07:00",
+                "onset": "2023-04-02T23:28:00-07:00",
+                "expires": "2023-04-06T09:00:00-07:00",
+                "ends": "2023-04-06T09:00:00-07:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Flood Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Hanford CA",
+                "headline": "Flood Advisory issued April 2 at 11:28PM PDT until April 6 at 9:00AM PDT by NWS Hanford CA",
+                "description": "* WHAT...Flooding caused by upstream dam release continues.\n\n* WHERE...A portion of central California, including the following\ncounties, Fresno, Kings and Tulare.\n\n* WHEN...Until 900 AM PDT Thursday.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nRiver or stream flows are elevated.\n\n* ADDITIONAL DETAILS...\n- At 1127 PM PDT, an upstream floodgate release is expected to\ncause minor flooding in the advisory area.\n- Some locations that will experience flooding include...\nSanger, Reedley, Kingsburg, and the King's River Golf and\nCountry Club.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSHNX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS86 KHNX 030628"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD ADVISORY FOR A DAM FLOODGATE RELEASE NOW IN EFFECT UNTIL 9 AM PDT THURSDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KHNX.FA.Y.0079.000000T0000Z-230406T1600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2023-04-06T16:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6a25b4be17373d2e3bba475e3ba239f5ed68cf0f.001.1,2023-03-26T06:17:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.11b7e3f2fdcea30a1b69bb5380fe1428081e5e56.001.1,2023-03-30T10:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.813ad5bce9ed07f3d8d2e41f294c23e30261a655.001.1,2023-03-25T03:21:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af1f5ab0e62df97fbf3bf5e55d453254e2b14184.001.1,2023-03-25T00:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6404d4c9b3127c0f888b5a78205ed6173700393a.001.1,2023-03-24T08:45:00-07:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c985f53c2116fd2d3f4ca6eb61d697f843ce21b.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -119.69,
+                            37
+                        ],
+                        [
+                            -119.73,
+                            36.960000000000001
+                        ],
+                        [
+                            -119.73,
+                            36.939999999999998
+                        ],
+                        [
+                            -119.77000000000001,
+                            36.899999999999999
+                        ],
+                        [
+                            -119.79000000000001,
+                            36.859999999999999
+                        ],
+                        [
+                            -119.83000000000001,
+                            36.829999999999998
+                        ],
+                        [
+                            -119.93000000000001,
+                            36.829999999999998
+                        ],
+                        [
+                            -120.04000000000001,
+                            36.799999999999997
+                        ],
+                        [
+                            -120.09,
+                            36.809999999999995
+                        ],
+                        [
+                            -120.16,
+                            36.789999999999992
+                        ],
+                        [
+                            -120.19,
+                            36.759999999999991
+                        ],
+                        [
+                            -120.28999999999999,
+                            36.749999999999993
+                        ],
+                        [
+                            -120.41,
+                            36.749999999999993
+                        ],
+                        [
+                            -120.34999999999999,
+                            36.829999999999991
+                        ],
+                        [
+                            -120.25,
+                            36.789999999999992
+                        ],
+                        [
+                            -120.06999999999999,
+                            36.839999999999989
+                        ],
+                        [
+                            -119.81999999999999,
+                            36.879999999999988
+                        ],
+                        [
+                            -119.72,
+                            37.009999999999991
+                        ],
+                        [
+                            -119.70999999999999,
+                            37.009999999999991
+                        ],
+                        [
+                            -119.69,
+                            37
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7c985f53c2116fd2d3f4ca6eb61d697f843ce21b.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.7c985f53c2116fd2d3f4ca6eb61d697f843ce21b.001.1",
+                "areaDesc": "Fresno, CA; Madera, CA",
+                "geocode": {
+                    "SAME": [
+                        "006019",
+                        "006039"
+                    ],
+                    "UGC": [
+                        "CAC019",
+                        "CAC039"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/CAC019",
+                    "https://api.weather.gov/zones/county/CAC039"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ff1d5110bb0492169bae2a7032aa31d3b2199df.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.6ff1d5110bb0492169bae2a7032aa31d3b2199df.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-04-01T00:11:00-07:00"
+                    }
+                ],
+                "sent": "2023-04-02T23:26:00-07:00",
+                "effective": "2023-04-02T23:26:00-07:00",
+                "onset": "2023-04-02T23:26:00-07:00",
+                "expires": "2023-04-06T09:00:00-07:00",
+                "ends": "2023-04-06T09:00:00-07:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Flood Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Hanford CA",
+                "headline": "Flood Advisory issued April 2 at 11:26PM PDT until April 6 at 9:00AM PDT by NWS Hanford CA",
+                "description": "* WHAT...Flooding caused by upstream dam release continues.\n\n* WHERE...A portion of central California, including the following\ncounties, Fresno and Madera.\n\n* WHEN...Until 900 AM PDT Thursday.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. River or stream flows are elevated.\n\n* ADDITIONAL DETAILS...\n- At 1125 PM PDT, an upstream floodgate release is expected to\ncause minor flooding in the advisory area.\n- Some locations that will experience flooding include...\nFresno, Mendota, Biola, Friant and Millerton Lake.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSHNX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS86 KHNX 030626"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD ADVISORY FOR A DAM FLOODGATE RELEASE NOW IN EFFECT UNTIL 9 AM PDT THURSDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KHNX.FA.Y.0070.000000T0000Z-230406T1600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2023-04-06T16:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cf961d247b22bbe020a56717c4cebba8a937909e.001.1,2023-03-26T06:15:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.de8187309b2cd5460cdb9d5ec34b8898909a3380.001.1,2023-03-25T03:21:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a600520e1ddb94295c46f381030d6cc9f9667a1c.001.1,2023-03-25T00:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b594b7895d93626fbad8fa1222d68a551292918f.001.1,2023-03-24T00:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2d788a72ec3184fcdc0e5f363f9ab7fbf610f838.001.1,2023-03-23T14:20:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ba039745559e2d60f4e6506df3515210f76b39af.001.1,2023-03-23T00:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0f337829ff4e2b3e335f77ca1448b5c3b1752416.001.1,2023-03-22T00:25:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.029b246e714cbeb8ac88f13b28d5293fe0facd8c.001.1,2023-03-21T00:55:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3ac2290d15ea2df97b6e48d87da549d5a93c159f.001.1,2023-03-20T22:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.532116e2e389de7e503cdecda6c13f3500bd837c.001.1,2023-03-20T20:52:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b03b8c09b53cd0a061401618ccc00bed745a5e63.001.1,2023-03-19T21:07:00-07:00"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for California",
+    "updated": "2023-04-04T18:00:00+00:00"
+}

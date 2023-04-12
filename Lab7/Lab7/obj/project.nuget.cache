@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fRQUAXaNhNjrb7hVt21OZMErSc5G9ldDsF8uOd/l9vSggsB+TbQKkVsXsFTVA2PK0jg3mMe35CejGijVh8qg5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dubinj\\OneDrive - East Tennessee State University\\Documents\\ETSU\\Spring 2023\\CSCI-2910-001\\Week 12\\Lab7\\Lab7\\Lab7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dubinj\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\dubinj\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
